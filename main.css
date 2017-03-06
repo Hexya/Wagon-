@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto|Roboto+Condensed');
+/*a
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+a*/
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 360px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.header ul li {
+  margin-top: 38px;
+  margin-right:45px;
+}
+.header ul li:nth-child(1) {
+  margin-right:12px;
+  margin-left:4%;
+}
+.header ul li:nth-child(2) {
+  margin-right:12px;
+}
+.header ul li:nth-child(4) {
+  margin-left:10%;
+}
+.header ul li:nth-child(10) {
+  margin-right:7%;
+}
+.flag{
+  height: 28px;
+  width: 28px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.header button {
+  font-size: 1em;
+  height: 40px;
+  width: 90px;
+  border-radius: 2px;
+  background-color: #F6F6F6;
+  border: 1px solid rgb(184, 184, 184);
+}
+.contBan {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ban {
+  height: 400px;
+  width: 85%;
+  background-image: url('header.jpeg');
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.ban p span:after {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 29%;
+  background-color: #D23333;
+  margin-left: -29%;
+  margin-top: 35px;
+  z-index: -1;
+}
+.ban p {
+  z-index: 4;
+}
+.ban p:nth-child(1) {
+  margin-top: -10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+.ban p:nth-child(2) {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+}
+.blocBan {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+.blocBan1 {
+  height: 60px;
+  width: 280px;
+  background-color: white;
+  border: 1px solid rgba(200,200,200, 0.5);
+  border-radius: 5px;
+  margin-right: 20px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blocBan1:hover {
+  color: black;
+  cursor: pointer;
+}
+.blocBan2 {
+  height: 60px;
+  width: 355px;
+  background-color: #D23333;
+  border: 1px solid rgba(200,200,200, 0.5);
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blocBan2:hover {
+  background-color: rgb(197, 29, 29);
+  cursor: pointer;
+}
+.body {
+  background-color: #F4F4F4;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body p:nth-child(1){
+  font-size: 1.7em;
+  font-family: 'Roboto', sans-serif;
+}
+.codezCont {
+  margin-top: 40px;
+  height: 450px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.codezBloc{
+  height: 450px;
+  width: 28%;
+  margin-left: 50px;
+}
+.codezBloc p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.codezBloc p:nth-child(1){
+  font-size: 1.2em;
+}
+.codezBloc p:nth-child(2){
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+.codezBloc p:nth-child(3){
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+.codezBloc p:nth-child(4){
+  font-size: 1.1em;
+  margin-top: 30px;
+}
